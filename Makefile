@@ -1,3 +1,5 @@
+@mkdir /tmp/www
+@mkdir /tmp/www/blogdeployment
 INFILES = $(shell find . -name '*.mdwn' -type f)
 OUTPUT = /tmp/www/blogdeployment
 OUTFILES = $(INFILES:.mdwn=/index.html)
