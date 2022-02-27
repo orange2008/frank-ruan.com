@@ -11,4 +11,4 @@ jobs:
         with:
           go-version: 1.16
       - run: sudo apt-get update && sudo apt-get -y install cmark
-      - run: make
+      - run: ./ci
